@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+        <link rel="stylesheet" type="text/css" href="CSS/style.css" media="screen">
+        <title>Organizador Pessoal</title>
+        <link rel="icon" type="image/x-icon" href="IMG/abrigo.png">
+        <script type="text/javascript" src="js/script.js"></script>
+</head>
+    <body id="Potato">
+        <div class="container_flex">
+
+            <header class="top_page">
+                <h1>POTATO</h1>
+            </header>
+            
+            <main class="content_flex">
+                <div class="content_main_login">
+                    <div class="login_content">
+                        <div class="login_left">
+                        </div>
+                        <div class="login_center">
+                            <div class="avatar_profile">
+                                <img src="IMG/perfilgatinho.png" id="perfil_foto" >
+                            </div>
+                            <div class="form_login">
+                                <form id="login_senha">
+                                    <label for="campo_email"> </label><br> 
+                                    <input type="text" id="campo_email" placeholder="✉ Email@exemplo.com" required>
+
+                                    <label for="campo_senha"> </label><br>
+                                    <input type="password" id="campo_senha" placeholder="🔑 Password" required><br>
+
+                                    <button type="submit" id="botao_entrar" value="Entrar" onclick="validarLogin()">Entrar</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="login_right">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </main>
+            
+            <footer class="bottom_page">
+
+            </footer>
+        </div>
+    </body>
+</html>
